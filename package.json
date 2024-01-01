@@ -1,0 +1,15 @@
+{
+  "name": "pj-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.0.6",
+    "uuid": "^9.0.1"
+  }
+}
