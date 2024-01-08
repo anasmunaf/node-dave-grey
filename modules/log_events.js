@@ -15,7 +15,7 @@ const logPath = path.join(__dirname, "..", "content", "logs");
 
 async function logEvents(msg) {
   const date = format(new Date(), "yyyyMMdd\tHH:mm:ss");
-  const log = date + " " + uuid() + " " + msg;
+  const log = date + " " + uuid() + " " + msg + "\n";
 
   if (!existsSync(logFile)) mkdirSync(logPath);
 
